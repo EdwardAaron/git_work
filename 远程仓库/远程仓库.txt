@@ -1,0 +1,27 @@
+git remote
+	远程服务器的名称
+git remote -v
+	详细
+git remote show helloWorld
+	显示远程仓库详细信息
+git config --global credential.helper cache
+	缓存凭证，这样就不必每次都填写没密码
+
+git remote add helloWorld https://github.com/EdwardAaron/HelloWorld
+	添加远程仓库
+git fetch helloWorld
+	从远程仓库抓取
+	必须注意 git fetch 命令只会将数据下载到你的本地仓库——它并不会自动合并或修改你当前的工作。 当准备好时你必须手动将其合并入你的工作。
+
+git push helloWorld master
+	推送
+
+git remote show origin
+	显示远程仓库信息
+git remote rename xxx xxxx
+	远程仓库重命名
+git remote remove xxx
+	删除远程仓库
+
+git checkout -b <branch> <remote>/<branch>
+	创建远程仓库的跟踪分支

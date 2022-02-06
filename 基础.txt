@@ -1,0 +1,4 @@
+https://git-scm.com/book/en/v2
+
+git config --global alias.ci commit 
+	创建git命令别名

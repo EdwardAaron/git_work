@@ -1,0 +1,9 @@
+具体步骤
+ makedir springcloud-config 创建目录，最好与github上面的仓库名称一致
+ cd springcloud-config
+ echo "# springcloud-config" >> README.md
+ git init 初始化
+ git add README.md 添加到本地仓库
+ git commit -m "first commit" 提交到本地仓库
+ git remote add origin https://github.com/EdwardAaron/springcloud-config.git 与github仓库关联
+ git push -u origin master  上传到GitHub上

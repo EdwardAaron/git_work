@@ -1,0 +1,4 @@
+git reset HEAD FILE
+	取消暂存
+git checkout -- FILE 
+	获取上次提交，覆盖本地

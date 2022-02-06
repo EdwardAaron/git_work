@@ -1,0 +1,4 @@
+生成
+ssh-keygen -t rsa -C "467200839@qq.com"
+测试
+ssh -T git@github.com

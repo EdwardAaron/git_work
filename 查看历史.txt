@@ -1,0 +1,6 @@
+git log
+	查看历史
+git log -p -2
+	以比较的方式，查看最近两次比较
+git log --stat
+	查看简略信息
