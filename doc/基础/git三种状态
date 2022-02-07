@@ -1,0 +1,4 @@
+git中的文件有三种状态
+    已提交（committed)
+    已修改（modified)
+    已暂存（staged）
