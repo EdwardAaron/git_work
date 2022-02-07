@@ -1,0 +1,8 @@
+git diff :
+    比较工作目录和缓存中的差异
+git diff --cached
+    比较缓存和已经提交的差异
+git diff readme.txt
+    :与git diff相比，比较的是指定的文件
+git diff --cached readme.txt
+    :与git diff --cached相比，比较的是指定的文件
