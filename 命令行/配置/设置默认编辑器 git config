@@ -1,0 +1,4 @@
+设置默认编辑器（sublime-需要将sublime安装目录，添加到path中）
+	git config --global core.editor "subl -w"
+查看默认编辑器
+    git config --global core.editor

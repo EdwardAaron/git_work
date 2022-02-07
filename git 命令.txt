@@ -1,6 +1,4 @@
 
-git init 
-	初始化仓库
 git add FILE|DIR
 	添加文件
 git commmit 
