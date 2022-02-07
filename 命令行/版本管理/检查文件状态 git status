@@ -1,0 +1,7 @@
+git status
+	检查文件状态 ，
+	    untracked：未追踪
+git status hello.txt
+    检查文件hello.txt的状态
+git status -s
+	检查文件状态，输出简明信息

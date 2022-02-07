@@ -1,0 +1,4 @@
+克隆仓库
+    git clone https://github.com/EdwardAaron/git_work
+克隆仓库,指定本地仓库的名字为myGit_work
+    git clone https://github.com/EdwardAaron/git_work myGit_work
