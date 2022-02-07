@@ -2,3 +2,4 @@
     git commit -m "message"
 
 如果文件(例如readme.txt)已经被追踪，可以跳过缓存阶段
+    git commit -a -m "lucia" :被修改的文件直接跳过缓存，提交到数据库
