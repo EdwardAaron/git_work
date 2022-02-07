@@ -1,2 +1,4 @@
 提交所有未提交的文件，message 为附加信息
     git commit -m "message"
+
+如果文件(例如readme.txt)已经被追踪，可以跳过缓存阶段
