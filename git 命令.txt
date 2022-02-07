@@ -1,7 +1,4 @@
-
-git commmit 
-	提交缓存区文件
-git commit -a 
+git commit -a
 	提交修改过的和缓存过的文件
 git rm FILE
 	从版本库和本地中删除文件

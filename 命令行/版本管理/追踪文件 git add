@@ -1,4 +1,7 @@
-git add hello.txt
-	追踪hello.txt
-git add .
-    追踪当前目录及其子目录下未追踪的文件
+git add 命令之后，受影响的文件进入暂存状态
+
+git add [file|dir]
+    git add hello.txt
+	    追踪hello.txt
+    git add .
+        追踪当前目录及其子目录下未追踪的文件

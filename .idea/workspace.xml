@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf86f71-fbc9-4073-9ed0-cd23cb0dcda1" name="Default Changelist" comment="第二次提交">
-      <change afterPath="$PROJECT_DIR$/tmp/hello world" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/命令行/版本管理/初始化仓库" beforeDir="false" afterPath="$PROJECT_DIR$/命令行/版本管理/初始化仓库 git init" afterDir="false" />
+    <list default="true" id="daf86f71-fbc9-4073-9ed0-cd23cb0dcda1" name="Default Changelist" comment="commit">
+      <change afterPath="$PROJECT_DIR$/配置/忽略文件.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git 命令.txt" beforeDir="false" afterPath="$PROJECT_DIR$/git 命令.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/命令行/版本管理/追踪文件 git add" beforeDir="false" afterPath="$PROJECT_DIR$/命令行/版本管理/追踪文件 git add" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/忽略文件.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +31,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tmp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -46,6 +49,7 @@
       <recent name="D:\workspace\git_work\doc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\git_work\配置" />
       <recent name="D:\workspace\git_work\命令行\配置" />
       <recent name="D:\workspace\git_work\命令行" />
       <recent name="D:\workspace\git_work\doc\基础" />
@@ -64,6 +68,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/workspace/git_work/tmp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/tmp" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.D:/workspace/git_work/tmp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -73,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644151350048</updated>
-      <workItem from="1644151351611" duration="5660000" />
+      <workItem from="1644151351611" duration="11545000" />
     </task>
     <task id="LOCAL-00001" summary="第一次">
       <created>1644151413582</created>
@@ -103,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1644218472538</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改名字">
+      <created>1644218686517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644218686517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <created>1644221944729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1644221944729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +167,8 @@
     <MESSAGE value="git官方学习手册" />
     <MESSAGE value="第一次提交" />
     <MESSAGE value="第二次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
+    <MESSAGE value="修改名字" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
