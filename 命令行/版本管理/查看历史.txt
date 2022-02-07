@@ -1,5 +1,7 @@
 git log
 	查看整体历史历史
+git log readme.txt
+    查看readme.txt的历史
 git log -p -2
 	以比较的方式，查看最近两次比较
 git log --stat
