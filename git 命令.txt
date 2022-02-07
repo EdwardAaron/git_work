@@ -7,9 +7,5 @@ git rm -f File|DIR
 git rm --cached FILE|DIR
 	只是从缓存区删除，本地文件保留
 
-git diff
-	比较修改与缓存文件之间的差异
-git diff --cahed
-	比较缓存和上次提交的差异
 git mv FEIL1 FIEL2
 	重命名文件

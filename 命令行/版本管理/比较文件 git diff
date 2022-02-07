@@ -6,3 +6,6 @@ git diff readme.txt
     :与git diff相比，比较的是指定的文件
 git diff --cached readme.txt
     :与git diff --cached相比，比较的是指定的文件
+
+注意git diff --cached和git diff --staged 是相同的
+
