@@ -1,0 +1,2 @@
+git restore --staged readme.txt
+    :如果readme.txt已经记录再暂缓区，则从暂缓区域移除

@@ -1,2 +1,0 @@
-git commit --amend
-	与上次提交合并
