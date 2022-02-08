@@ -1,0 +1,16 @@
+git remote
+    :显示远程对应的远程仓库简写，一般为origin
+git remote -v
+    :详细信息
+git remote show helloWorld
+	显示远程仓库详细信息
+git remote add helloWorld https://github.com/EdwardAaron/HelloWorld
+	添加远程仓库，helloWorld为远程仓库的名称,以后的操作helloWorld可以代替url。
+	该命令的作用只是添加一个远程仓库的别名，方便以后使用，没有其他的作用
+git remote remove helloWorld
+	删除远程仓库。
+	该命令的作用只是删除远程仓库的本地别名而已。
+git remote rename helloWorld helloWorld2
+	重命名仓库名称(远程仓库的简写)
+git remote rm helloWorld
+    移除远程仓库名字

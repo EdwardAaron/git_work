@@ -1,1 +1,6 @@
-git push
+git push origin master
+    :推送到 origin 的master分支上
+
+如果推送时需要密码，可已使用一下方式避免填写密码
+    1 git remote remove origin 先将远程仓库删掉
+    2 git remote add origin https://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@github.com/EdwardAaron/git_work.git

@@ -1,0 +1,8 @@
+git rm readme.txt
+    :从工作目录中删除readme.txt,同时将删除信息调教到缓存。
+    之后执行git commit 提交删除，之后readme.txt就不会归git管理了
+git rm -f readme.txt|DIR
+	:如果readme.txt已经添加到暂缓区，则使用该命令
+ git rm --cached readme.txt
+    :从仓库和暂缓区删除，但是本地保留。
+    一般将一个已经追踪的文件hello.txt 添加到.gitignore中，执行该命令
