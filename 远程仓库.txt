@@ -1,10 +1,4 @@
 
-git config --global credential.helper cache
-	缓存凭证，这样就不必每次都填写没密码
-git fetch helloWorld
-	从远程仓库抓取
-	必须注意 git fetch 命令只会将数据下载到你的本地仓库——它并不会自动合并或修改你当前的工作。 当准备好时你必须手动将其合并入你的工作。
-
 git push helloWorld master
 	推送
 
