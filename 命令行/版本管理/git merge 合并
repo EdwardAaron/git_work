@@ -1,0 +1,4 @@
+git merge origin/master
+    :将远程仓库分支合并到当前分支上
+git merger test
+    :将test分支合并到当前分支上

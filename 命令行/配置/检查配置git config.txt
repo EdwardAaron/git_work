@@ -6,7 +6,7 @@
     git config <key>
         git config user.name:查看用户名配置
 
-git config --global credential.helper cache
+git config --global credential.helper cache #在内存中缓存几分钟
 或者
 git config --global credential.helper store
 	缓存凭证，这样就不必每次都填写没密码

@@ -1,13 +1,3 @@
 
-git push helloWorld master
-	推送
-
-git remote show origin
-	显示远程仓库信息
-git remote rename xxx xxxx
-	远程仓库重命名
-git remote remove xxx
-	删除远程仓库
-
 git checkout -b <branch> <remote>/<branch>
 	创建远程仓库的跟踪分支

@@ -1,2 +1,0 @@
-git clone --bare my_project my_project.git
-	创建仓库

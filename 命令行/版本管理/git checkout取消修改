@@ -1,2 +1,0 @@
-git checkout -- readme.txt
-    :取消对readme.txt的修改，恢复到上次提交的状态

@@ -1,0 +1,12 @@
+git checkout -- readme.txt
+    :取消对readme.txt的修改，恢复到上次提交的状态
+
+git checkout test
+	切换到 test 分支上
+git checkout -b test
+	创建并切换分支
+git checkout -b dev origin/develop
+    :从远程仓库 origin的develop检出到新创建的dev分支上，并切换到dev分支上。
+    同时本地分支会跟踪远程分支 origin/develop
+git branch -u origin/test
+    :设置本地分支去跟踪 远程分支origin/test

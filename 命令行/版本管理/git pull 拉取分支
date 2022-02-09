@@ -1,0 +1,5 @@
+git pull
+    :将远程仓库分支拉取文件，并合并到当前分支上。
+    相当于 git fetch ;git merge origin/test,假设当前分支为test
+git pull --rebase
+    :将远程仓库分支拉取文件到本地分支(test),并且执行相对于(origin/test)的即便

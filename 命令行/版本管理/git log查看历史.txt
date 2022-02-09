@@ -10,3 +10,7 @@ git log --stat
 	查看简略信息
 git log --since=2.weeks
     :近两周的历史记录
+git log --pretty=oneline
+
+git log --oneline --all --graph
+    :显示所有分支，图形化显示

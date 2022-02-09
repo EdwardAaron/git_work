@@ -1,13 +1,6 @@
-添加远程仓库
-git remote add origin https://github.com/EdwardAaron/HelloWorld
 
-查看一下
-git remote -v
 
-git fetch
-检出到本地仓库
 
-git merge origin/master
 添加到本地工作目录
 
 修改README.md 文件

@@ -1,0 +1,12 @@
+git tag
+    :列出所有的标签
+git tag -l 'v1.8.5*'
+    :列出类似 v1.8.5、v1.8.5-rc0这样的标签
+git tag -a v1.5 -m "version 1.4"
+    :创建一个附注标签
+git tag -a v0.1 -m "version 0.1" 8a5cbc430f1a9c3d00faaeffd07798508422908a
+    :为某一次提交添加一个标签，8a5cbc430f1a9c3d00faaeffd07798508422908a为该次提交的校验和
+git tag v1.6
+    :创建一个轻量标签
+git show v1.5
+    :显示标签v1.5的信息

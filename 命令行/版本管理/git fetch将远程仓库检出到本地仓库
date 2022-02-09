@@ -1,2 +1,2 @@
 git fetch repName|url
-    :将远程仓库检出到本地
+    :将远程仓库检出到本地仓库

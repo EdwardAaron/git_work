@@ -1,0 +1,12 @@
+git branch testing
+    :在最近的提交对象上创建分支，但没有切换到该分支上
+git branch -d test
+    删除test分支
+git branch
+    :显示所有的分支
+git branch -v
+    :显示所有的分支，详细些
+git branch --merged
+    :已经合并的分支
+git branch --no-merged
+    :没有合并的分支
