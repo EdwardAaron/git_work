@@ -11,6 +11,11 @@ git log --stat
 git log --since=2.weeks
     :近两周的历史记录
 git log --pretty=oneline
+    :单行显示
+git log --pretty=format:"%h %s" HEAD~3..HEAD
+    :%h 提交哈希码前六位
+    :%s 提交信息
+    :HEAD~3..HEAD 最近三条日志
 
 git log --oneline --all --graph
     :显示所有分支，图形化显示
