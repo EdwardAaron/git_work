@@ -1,3 +1,11 @@
 git rebase master
     :将当前分支(test)的修改应用的master版本上。这样master指针，会落后，需要切换到master分支上，
     执行git merger test，合并
+git rebase -i HEAD~3
+    :该命令会弹出一个编辑窗口，里面列出了前3此提交信息，如果对某条提交信息进行修改，可以将前面的
+    pick 改为edit，然后保存。每条记录的修改都要运行git commit --amend 来对重新编辑提交信息，
+    git rebase --continue 结束本次记录消息的修改
+
+    如果在删除窗口，删除一条记录，则执行之后的命令后，会将该次提交删除
+
+    注意该命令会修改提交消息的哈希码
