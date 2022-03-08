@@ -3,4 +3,5 @@ git commit -m "message"
 git commit -a -m "lucia"
     如果文件(例如readme.txt)已经被追踪，可以跳过缓存阶段
 git commit --amend
-	修订上次提交，使用该命令后git log 将不会显示上次的提交
+	修订上次提交，使用该命令后git log 将不会显示上次的提交,该命令会弹出一个编辑窗口，
+	内容是上次提交的message，可以对其进行修改
